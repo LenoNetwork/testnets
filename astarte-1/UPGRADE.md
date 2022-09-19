@@ -15,6 +15,7 @@ You can either YOLO and assume cosmovisor will have your back (it probably will)
 # get the new version
 git checkout main && git pull
 git checkout v2.0.3
+can use this
 make build && make install
 
 # check the version - should be v2.0.3
