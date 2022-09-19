@@ -22,9 +22,11 @@ make build && make install
 junod version
 
 # if you are using cosmovisor you then need to copy this new binary
+use this
 cp /home/<your-user>/go/bin/junod $DAEMON_HOME/cosmovisor/upgrades/moneta/bin
 
 # find out what version you are about to run - should be v2.0.3
+use this
 $DAEMON_HOME/cosmovisor/upgrades/moneta/bin/junod version
 ```
 
